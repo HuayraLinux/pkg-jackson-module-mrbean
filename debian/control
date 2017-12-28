@@ -1,0 +1,31 @@
+Source: jackson-module-jaxb-annotations
+Section: java
+Priority: optional
+Maintainer: Ignacio Losiggio <iglosiggio@dc.uba.ar>
+Uploaders: Ignacio Losiggio <iglosiggio@dc.uba.ar>
+Build-Depends:
+ debhelper (>= 10),
+ default-jdk,
+ maven-debian-helper (>= 1.5),
+ xmlstarlet
+Build-Depends-Indep:
+ libbuild-helper-maven-plugin-java,
+ libjackson2-annotations-java (>= 2.8.5),
+ libjackson2-core-java (>= 2.8.5-2~),
+ libjackson2-databind-java (>= 2.8.5),
+ libmaven-bundle-plugin-java,
+ libreplacer-java
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/HuayraLinux/pkg-jackson-module-mrbean.git
+Vcs-Browser: https://github.com/HuayraLinux/pkg-jackson-module-mrbean
+Homepage:http://wiki.fasterxml.com/JacksonMrBean
+ 
+Package: libjackson2-module-mrbean-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: Fast and powerful JSON library for Java -- JAXB annotations
+ This Jackson extension module provides support for using JAXB (javax.xml.bind)
+ annotations as an alternative to native Jackson annotations. It is most often
+ used to make it easier to reuse existing data beans that used with JAXB
+ framework to read and write XML.

@@ -1,0 +1,2 @@
+version=3
+https://github.com/FasterXML/jackson-module-mrbean/releases .*/jackson-module-mrbean-(\d\S*)\.tar\.gz
