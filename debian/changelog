@@ -1,35 +1,7 @@
-jackson-module-mrbean (2.6.7-1) UNRELEASED; urgency=medium
+jackson-module-mrbean (2.6.7-1) unstable; urgency=medium
 
+  * Initial package
   * Used jackson-module-jaxb-annotations as a starting point for jackson-module-mrbean
 
  -- Ignacio Losiggio <iglosiggio@gmail.com>  Thu, 28 Dec 2017 14:40:08 -0300
 
-jackson-module-jaxb-annotations (2.8.5-1) unstable; urgency=medium
-
-  * Team upload.
-  * New upstream release
-    - Refreshed the patch
-    - Depend on libjackson2-{core,annotations,databind}-java (>= 2.8.5)
-  * Inherit from the parent POM and simplified the packaging
-  * Switch to debhelper level 10
-
- -- Emmanuel Bourg <ebourg@apache.org>  Mon, 19 Dec 2016 10:27:27 +0100
-
-jackson-module-jaxb-annotations (2.7.3-1) unstable; urgency=medium
-
-  * Team upload.
-  * New upstream release
-    - Refreshed the patch
-    - Updated the Maven rules
-  * Removed the build dependencies on libmaven-enforcer-plugin-java
-    and libmaven-site-plugin-java
-  * Standards-Version updated to 3.9.8 (no changes)
-  * Use secure Vcs-* URLs
-
- -- Emmanuel Bourg <ebourg@apache.org>  Mon, 11 Apr 2016 15:26:40 +0200
-
-jackson-module-jaxb-annotations (2.4.2-1) unstable; urgency=medium
-
-  * Initial release (Closes: #758154)
-
- -- Timo Aaltonen <tjaalton@debian.org>  Wed, 24 Sep 2014 18:19:51 +0300

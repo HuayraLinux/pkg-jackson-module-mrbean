@@ -1,4 +1,4 @@
-Source: jackson-module-jaxb-annotations
+Source: jackson-module-mrbean
 Section: java
 Priority: optional
 Maintainer: Ignacio Losiggio <iglosiggio@dc.uba.ar>
@@ -14,6 +14,7 @@ Build-Depends-Indep:
  libjackson2-core-java (>= 2.8.5-2~),
  libjackson2-databind-java (>= 2.8.5),
  libmaven-bundle-plugin-java,
+ libmaven-shade-plugin-java,
  libreplacer-java
 Standards-Version: 3.9.8
 Vcs-Git: https://github.com/HuayraLinux/pkg-jackson-module-mrbean.git

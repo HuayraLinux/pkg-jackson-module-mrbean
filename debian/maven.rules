@@ -2,4 +2,4 @@
 com.fasterxml.jackson.core jackson-annotations * s/.*/2.x/ * *
 com.fasterxml.jackson.core jackson-core * s/.*/2.x/ * *
 com.fasterxml.jackson.core jackson-databind * s/.*/2.x/ * *
-com.fasterxml.jackson.module jackson-module-jaxb-annotations * s/.*/2.x/ * *
+com.fasterxml.jackson.module jackson-module-mrbean * s/.*/2.x/ * *
