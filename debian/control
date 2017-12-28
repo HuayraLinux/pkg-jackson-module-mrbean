@@ -25,8 +25,4 @@ Package: libjackson2-module-mrbean-java
 Architecture: all
 Depends: ${maven:Depends}, ${misc:Depends}
 Suggests: ${maven:OptionalDepends}
-Description: Fast and powerful JSON library for Java -- JAXB annotations
- This Jackson extension module provides support for using JAXB (javax.xml.bind)
- annotations as an alternative to native Jackson annotations. It is most often
- used to make it easier to reuse existing data beans that used with JAXB
- framework to read and write XML.
+Description: Fast and powerful JSON library for Java -- MrBean Module
